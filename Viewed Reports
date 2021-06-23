@@ -1,0 +1,4 @@
+bfile = open('WeatherReport.txt', 'r')
+content = bfile.read()
+bfile.close()
+print(content)
